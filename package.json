@@ -1,0 +1,21 @@
+{
+  "name": "vite-plugin-multipage",
+  "description": "Adds multi-page application support to Vite.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "0BSD",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint --fix ."
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.3.2"
+  },
+  "dependencies": {
+    "mime-types": "^2.1.32",
+    "shelljs": "^0.8.4",
+    "url": "^0.11.0"
+  }
+}
